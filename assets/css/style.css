@@ -36,7 +36,7 @@ li a {
 /* Background image */
 
 body {
-   background: url("file:///Users/louis/Desktop/Basic-Portfolio/assets/images/dust_scratches.png") repeat;
+   background: url("./assets/images/dust_scratches.png") repeat;
    margin: 0px;
 }
 
