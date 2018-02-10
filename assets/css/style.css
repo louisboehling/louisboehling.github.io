@@ -42,6 +42,7 @@ body {
 
 /* header styles */
 
+
 header {
     width: 100%;
     background: #fff;
@@ -220,4 +221,35 @@ input[type="submit"] {
     text-align: center;
     background: #4aaaa5;
     padding: 3px 0px 3px 0px;
+}
+
+
+/* responsive info */
+
+@media screen and (max-width:959px) {
+    .pageContent {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    .headerContent {
+        width: 100%;
+    }
+    .itemL {
+        display: inline-block;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 20px 0px 20px 0px;
+    }
+    .itemR {
+        display: inline-block;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 20px 0px 20px 0px;
 }
